@@ -1,0 +1,25 @@
+// We want to include bootstrap, bootstrap-icons and flag-icons in this master.scss,
+// so we can set sass variables used by the below imports.
+
+
+// Bootstrap
+
+$primary: #4f39fa;
+
+@import 'bootstrap/scss/bootstrap';
+
+
+// Bootstrap Icons
+//
+// We could change:
+// $bootstrap-icons-font-dir: "./fonts";
+
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+
+// Flag Icons
+//
+// We could change:
+// $flag-icons-path: "../flags";
+
+@import 'flag-icons/sass/flag-icons';
